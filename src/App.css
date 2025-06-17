@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+.exoFont {
+  font-family: "Exo 2", sans-serif;
+}
+
+.instruFont {
+  font-family: "Instrument Sans", sans-serif;
+}
+
+.interFont {
+  font-family: "Inter", sans-serif;
+}
+
+.playfairFont {
+  font-family: "Playfair Display", sans-serif;
+}
+
+/*Animations*/
+.w3-animate-left {
+  position: relative;
+  animation: animateleft 1.2s;
+}
+@keyframes animateleft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.w3-animate-right {
+  position: relative;
+  animation: animateright 1.2s;
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 1.3s;
+}
+@keyframes animatebottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.w3-animate-zoom {
+  animation: animatezoom 1.4s;
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.w3-animate-opacity {
+  animation: opac 5.2s;
+}
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.w3-animate-opacity2 {
+  animation: opac 1.6s;
+}
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* DefaultScrollbars */
+
+.scroll::-webkit-scrollbar {
+  width: 1.8vw; /* width of the entire scrollbar */
+  min-width: 12px;
+}
+.scroll::-webkit-scrollbar-track {
+  border-radius: 0px 0px 0px 0px; /* color of the tracking area */
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-width: 0.5vw;
+  border-style: solid;
+
+  border-radius: 6px; /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
+
+/* General Scrollbars*/
+
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  border-width: 3px;
+  border-style: solid;
+
+  border-radius: 6px; /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
+@media (min-width: 501px) {
+  /*PCs and above*/
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-width: 4.5px;
+  }
+}
+@media (min-width: 900px) {
+  /*PCs and above*/
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-width: 4.5px;
+  }
+}
+
+/*Scroll Stand By Me*/
+::-webkit-scrollbar-track {
+  background: rgb(234, 223, 232);
+  border-radius: 0px 0px 0px 0px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #411e31; /* color of the scroll thumb  */
+  /* background-color: rgb(38, 49, 57); color of the scroll thumb  */
+  border-color: rgb(234, 223, 232);
+}
+
+/*Dotted BG*/
+
+.aboutMeGrad {
+  background: linear-gradient(#ffe3f933, #ffe3f933),
+    url(./assets/images/bg1.png);
+
+  backdrop-filter: blur(140px);
+}
+
+/**/
+@media (min-width: 566px) {
+  /*Tablets and above*/
+  .aboutMeGrad {
+    background: linear-gradient(#ffe3f933, #ffe3f933),
+      url(./assets/images/bg1.png);
+  }
+}
+@media (prefers-color-scheme: dark) and (min-width: 565px) {
+  .aboutMeGrad {
+    background: linear-gradient(#ffe3f933, #ffe3f933),
+      url(./assets/images/bg1.png);
+  }
+}
+
+@media (min-width: 566px) {
+  /* Ensure dark mode styles also apply when .dark class is present on larger screens */
+  .dark .aboutMeGrad {
+    background: linear-gradient(#ffe3f933, #ffe3f933),
+      url(./assets/images/bg1.png);
+  }
+}
