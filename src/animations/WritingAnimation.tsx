@@ -27,7 +27,11 @@ const WritingAnimation: React.FC<WritingAnimationProps> = ({ text }) => {
   return (
     <motion.div initial="hidden" animate="visible" variants={container}>
       {text.split("").map((char: string, index: number) => (
-        <motion.span key={index} variants={letter} className="instruFont">
+        <motion.span
+          key={index}
+          variants={letter}
+          className="instruFonts exoFont"
+        >
           {char}
         </motion.span>
       ))}

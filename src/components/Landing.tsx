@@ -20,14 +20,15 @@ const Landing: React.FC<NavigationBarProps> = ({ projectsRef }) => {
       <div className="h-dvh slg:h-[75vh] lg:border-4 lg:border-b-0 border-[#411E31] border-double bg-[#FFE3F933]s aboutMeGrad flex flex-col gap-4 md:gap-2 lg:gap-8 justify-center items-center px-2 lg:px-8 shadow-md shadow-[#7E14651A]  w3-animate-opacity">
         <div className="sborder-2 instruFont text-[#676565] text-sm md:text-[2.5vw]  lg:text-xl xl:text-2xl selection:bg-[#676565] selection:text-[#fff]">
           {" "}
-          <WritingAnimation text="June 28 1985" />
+          <WritingAnimation text="The Tookis" />
         </div>
         <div className="sborder-2 playfairFont text-[#3A3A3A] selection:bg-[#676565] selection:text-[#fff] text-[9vw] lg:text-6xl xl:text-7xl font-bold text-center">
-          <WritingAnimationDelay text="OLUSHOLA COKER" />
+          <WritingAnimationDelay text="OLUFUNMISO TOOKI" />
+          <WritingAnimationDelay text="FOLASHADE TOOKI" />
         </div>
         <Link to="/wishme">
           <div className="sborder-2 interFont text-[#F4EFEF] bg-gradient-to-r from-[#411E31] from-5% to-[#863373]  bg-[#411E31]s  text-sm lg:text-base xl:text-lgs font-medium p-3 tab:p-4 rounded-lg transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] animate-pulses select-none">
-            Send a Birthday Wish
+            Send a Wedding Anniversary / Birthday Wish
           </div>
         </Link>
         <div

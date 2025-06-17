@@ -53,10 +53,11 @@ const BirthdayWishForm: React.FC = () => {
       {!submitted ? (
         <div className="relative top-4 sborder-2 w-full flex flex-col items-center">
           <h1 className="text-2xl tab:text-3xl lg:text-4xl xl:text-5xl    font-semibold text-center text-[#411E31] playfairFont ">
-            Send a Birthday Wish
+            Send Your Message
           </h1>
           <p className="text-sm md:text-base text-center text-gray-600 mb-6 mt-[3px]">
-            Write a birthday wish to Shola
+            Write a wedding annivesary wish to Funso Tooki / a birthday wish to
+            Folashade
           </p>
           <form
             onSubmit={handleSubmit}
@@ -102,7 +103,7 @@ const BirthdayWishForm: React.FC = () => {
               type="submit"
               className="w-full bg-[#863373] text-white py-2 rounded-md hover:bg-[#5c1f4e] shadow-md w3-animate-zooms transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.02]"
             >
-              Send A Birthday Wish
+              Send Message
             </button>
           </form>
         </div>
