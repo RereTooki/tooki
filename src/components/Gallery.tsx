@@ -33,7 +33,7 @@ const categories = [
   "All",
   "Childhood",
   "Family and Friends",
-  "DSA",
+  "Work",
   "Folashade ♡",
 ];
 
@@ -51,10 +51,10 @@ const photos = [
   {
     src: port1,
     alt: "Folashade in patterned outfit",
-    category: "DSA",
+    category: "Work",
     caption: {
-      title: "DSA",
-      subtitle: "Folashade appointed as DSA",
+      title: "Work",
+      subtitle: "Folashade appointed as Work",
     },
     span: "row-span-1",
   },
@@ -81,10 +81,10 @@ const photos = [
   {
     src: port5,
     alt: "Smiling in green dress again",
-    category: "DSA",
+    category: "Work",
     caption: {
-      title: "DSA",
-      subtitle: "Folashade's 1 Year Anniversary as DSA",
+      title: "Work",
+      subtitle: "Folashade's 1 Year Anniversary as Work",
     },
     span: "row-span-1",
   },
@@ -151,10 +151,10 @@ const photos = [
   {
     src: port12,
     alt: "Folashade in patterned outfit",
-    category: "DSA",
+    category: "Work",
     caption: {
-      title: "DSA",
-      subtitle: "Folashade appointed as DSA",
+      title: "Work",
+      subtitle: "Folashade appointed as Work",
     },
     span: "row-span-1",
   },
@@ -181,10 +181,10 @@ const photos = [
   {
     src: port15,
     alt: "Smiling in green dress again",
-    category: "DSA",
+    category: "Work",
     caption: {
-      title: "DSA",
-      subtitle: "Folashade's 1 Year Anniversary as DSA",
+      title: "Work",
+      subtitle: "Folashade's 1 Year Anniversary as Work",
     },
     span: "row-span-1",
   },
@@ -251,10 +251,10 @@ const photos = [
   {
     src: port22,
     alt: "Folashade in patterned outfit",
-    category: "DSA",
+    category: "Work",
     caption: {
-      title: "DSA",
-      subtitle: "Folashade appointed as DSA",
+      title: "Work",
+      subtitle: "Folashade appointed as Work",
     },
     span: "row-span-1",
   },
@@ -281,10 +281,10 @@ const photos = [
   {
     src: port25,
     alt: "Smiling in green dress again",
-    category: "DSA",
+    category: "Work",
     caption: {
-      title: "DSA",
-      subtitle: "Folashade's 1 Year Anniversary as DSA",
+      title: "Work",
+      subtitle: "Folashade's 1 Year Anniversary as Work",
     },
     span: "row-span-1",
   },
@@ -338,7 +338,7 @@ const Gallery = () => {
           image={selectedImage ?? undefined}
         />
         {/* Header */}
-        <div className="flex flex-col tab:flex-row justify-center items-start tab:items-center mb-8 lg:mb-12 gap-4">
+        <div className="flex flex-col tab:flex-row justify-between items-start tab:items-center mb-8 lg:mb-12 gap-4">
           <div className="sborder-4 w3-animate-right">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-gray-900 playfairFont">
               Photo Gallery
@@ -346,7 +346,7 @@ const Gallery = () => {
           </div>
 
           {/* Tabs */}
-          <div className="flex flex-wrap gap-2 text-sm lg:text-base xl:text-lg font-medium text-gray-600 w3-animate-left hidden">
+          <div className="flex flex-wrap gap-2 text-sm lg:text-base xl:text-lg font-medium text-gray-600 w3-animate-left hiddens">
             {categories.map((cat, idx) => (
               <React.Fragment key={cat}>
                 {idx > 0 && <span className="text-gray-400">||</span>}
@@ -382,7 +382,7 @@ const Gallery = () => {
                 className="w-full h-full object-cover transition duration-500 cursor-pointer hover:scale-[1.04]"
               />
               {photo.caption && (
-                <div className="absolute bottom-0 left-0 w-full bg-[#3F014733] text-white text-xs py-2 px-3 invisible ">
+                <div className="absolute bottom-0 left-0 w-full bg-[#3F014733] text-white text-xs py-2 px-3 invisibles ">
                   <p className="font-bold ">{photo.caption.title}</p>
                   <p>{photo.caption.subtitle}</p>
                 </div>
