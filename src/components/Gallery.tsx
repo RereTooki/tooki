@@ -44,7 +44,7 @@ const photos = [
     category: "Childhood",
     caption: {
       title: "Childhood",
-      subtitle: "Folashade Coker in Primary School",
+      subtitle: "Folashade in Primary School",
     },
     span: "row-span-2",
   },
@@ -54,7 +54,7 @@ const photos = [
     category: "DSA",
     caption: {
       title: "DSA",
-      subtitle: "Folashade Coker appointed as DSA",
+      subtitle: "Folashade appointed as DSA",
     },
     span: "row-span-1",
   },
@@ -64,7 +64,7 @@ const photos = [
     category: "Family and Friends",
     caption: {
       title: "Family and Friends",
-      subtitle: "Folashade Coker at her Brother's Graduation",
+      subtitle: "Folashade at her Brother's Graduation",
     },
     span: "row-span-1",
   },
@@ -74,7 +74,7 @@ const photos = [
     category: "Childhood",
     caption: {
       title: "Childhood",
-      subtitle: "Folashade Coker Growing Up",
+      subtitle: "Folashade Growing Up",
     },
     span: "row-span-2",
   },
@@ -84,7 +84,7 @@ const photos = [
     category: "DSA",
     caption: {
       title: "DSA",
-      subtitle: "Folashade Coker's 1 Year Anniversary as DSA",
+      subtitle: "Folashade's 1 Year Anniversary as DSA",
     },
     span: "row-span-1",
   },
@@ -94,7 +94,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker's Marriage",
+      subtitle: "Folashade's Marriage",
     },
     span: "row-span-1",
   },
@@ -104,7 +104,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker With Her Children",
+      subtitle: "Folashade With Her Children",
     },
     span: "row-span-2",
   },
@@ -114,7 +114,7 @@ const photos = [
     category: "Family and Friends",
     caption: {
       title: "Family and Friends",
-      subtitle: "Folashade Coker at a Friend's Wedding",
+      subtitle: "Folashade at a Friend's Wedding",
     },
     span: "row-span-1",
   },
@@ -124,7 +124,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker Being Folashade Coker",
+      subtitle: "Folashade Being Folashade",
     },
     span: "row-span-1",
   },
@@ -134,7 +134,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker Being Folashade Coker",
+      subtitle: "Folashade Being Folashade",
     },
     span: "row-span-1",
   },
@@ -144,7 +144,7 @@ const photos = [
     category: "Childhood",
     caption: {
       title: "Childhood",
-      subtitle: "Folashade Coker in Primary School",
+      subtitle: "Folashade in Primary School",
     },
     span: "row-span-2",
   },
@@ -154,7 +154,7 @@ const photos = [
     category: "DSA",
     caption: {
       title: "DSA",
-      subtitle: "Folashade Coker appointed as DSA",
+      subtitle: "Folashade appointed as DSA",
     },
     span: "row-span-1",
   },
@@ -164,7 +164,7 @@ const photos = [
     category: "Family and Friends",
     caption: {
       title: "Family and Friends",
-      subtitle: "Folashade Coker at her Brother's Graduation",
+      subtitle: "Folashade at her Brother's Graduation",
     },
     span: "row-span-1",
   },
@@ -174,7 +174,7 @@ const photos = [
     category: "Childhood",
     caption: {
       title: "Childhood",
-      subtitle: "Folashade Coker Growing Up",
+      subtitle: "Folashade Growing Up",
     },
     span: "row-span-2",
   },
@@ -184,7 +184,7 @@ const photos = [
     category: "DSA",
     caption: {
       title: "DSA",
-      subtitle: "Folashade Coker's 1 Year Anniversary as DSA",
+      subtitle: "Folashade's 1 Year Anniversary as DSA",
     },
     span: "row-span-1",
   },
@@ -194,7 +194,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker's Marriage",
+      subtitle: "Folashade's Marriage",
     },
     span: "row-span-1",
   },
@@ -204,7 +204,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker With Her Children",
+      subtitle: "Folashade With Her Children",
     },
     span: "row-span-2",
   },
@@ -214,7 +214,7 @@ const photos = [
     category: "Family and Friends",
     caption: {
       title: "Family and Friends",
-      subtitle: "Folashade Coker at a Friend's Wedding",
+      subtitle: "Folashade at a Friend's Wedding",
     },
     span: "row-span-1",
   },
@@ -224,7 +224,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker Being Folashade Coker",
+      subtitle: "Folashade Being Folashade",
     },
     span: "row-span-1",
   },
@@ -234,7 +234,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker With Her Children",
+      subtitle: "Folashade With Her Children",
     },
     span: "row-span-2",
   },
@@ -244,7 +244,7 @@ const photos = [
     category: "Childhood",
     caption: {
       title: "Childhood",
-      subtitle: "Folashade Coker in Primary School",
+      subtitle: "Folashade in Primary School",
     },
     span: "row-span-2",
   },
@@ -254,7 +254,7 @@ const photos = [
     category: "DSA",
     caption: {
       title: "DSA",
-      subtitle: "Folashade Coker appointed as DSA",
+      subtitle: "Folashade appointed as DSA",
     },
     span: "row-span-1",
   },
@@ -264,7 +264,7 @@ const photos = [
     category: "Family and Friends",
     caption: {
       title: "Family and Friends",
-      subtitle: "Folashade Coker at her Brother's Graduation",
+      subtitle: "Folashade at her Brother's Graduation",
     },
     span: "row-span-1",
   },
@@ -274,7 +274,7 @@ const photos = [
     category: "Childhood",
     caption: {
       title: "Childhood",
-      subtitle: "Folashade Coker Growing Up",
+      subtitle: "Folashade Growing Up",
     },
     span: "row-span-2",
   },
@@ -284,7 +284,7 @@ const photos = [
     category: "DSA",
     caption: {
       title: "DSA",
-      subtitle: "Folashade Coker's 1 Year Anniversary as DSA",
+      subtitle: "Folashade's 1 Year Anniversary as DSA",
     },
     span: "row-span-1",
   },
@@ -294,7 +294,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker's Marriage",
+      subtitle: "Folashade's Marriage",
     },
     span: "row-span-1",
   },
@@ -304,7 +304,7 @@ const photos = [
     category: "Folashade ♡",
     caption: {
       title: "Folashade ♡",
-      subtitle: "Folashade Coker With Her Children",
+      subtitle: "Folashade With Her Children",
     },
     span: "row-span-2",
   },
