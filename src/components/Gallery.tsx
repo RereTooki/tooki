@@ -49,7 +49,7 @@ const photos = [
     span: "row-span-2",
   },
   {
-    src: port2,
+    src: port1,
     alt: "Folashade in patterned outfit",
     category: "DSA",
     caption: {
