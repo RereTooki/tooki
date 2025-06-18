@@ -338,7 +338,7 @@ const Gallery = () => {
           image={selectedImage ?? undefined}
         />
         {/* Header */}
-        <div className="flex flex-col tab:flex-row justify-between items-start tab:items-center mb-8 lg:mb-12 gap-4">
+        <div className="flex flex-col tab:flex-row justify-between items-start tab:items-center mb-8 lg:mb-12 gap-4 sss">
           <div className="sborder-4 w3-animate-right">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-gray-900 playfairFont">
               Photo Gallery
@@ -346,7 +346,7 @@ const Gallery = () => {
           </div>
 
           {/* Tabs */}
-          <div className="flex flex-wrap gap-2 text-sm lg:text-base xl:text-lg font-medium text-gray-600 w3-animate-left hiddens">
+          <div className="flex flex-wrap gap-2 text-sm lg:text-base xl:text-lg font-medium text-gray-600 w3-animate-left">
             {categories.map((cat, idx) => (
               <React.Fragment key={cat}>
                 {idx > 0 && <span className="text-gray-400">||</span>}
