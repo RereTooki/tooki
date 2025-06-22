@@ -308,6 +308,26 @@ const photos = [
     },
     span: "row-span-2",
   },
+  {
+    src: port14,
+    alt: "Smiling in green attire",
+    category: "Childhood",
+    caption: {
+      title: "Childhood",
+      subtitle: "Folashade Growing Up",
+    },
+    span: "row-span-1",
+  },
+  {
+    src: port15,
+    alt: "Smiling in green dress again",
+    category: "Work",
+    caption: {
+      title: "Work",
+      subtitle: "Folashade's 1 Year Anniversary as Work",
+    },
+    span: "row-span-1",
+  },
 ];
 
 const Gallery = () => {
@@ -330,7 +350,7 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="px-4 tab:px-6 xl:px-10 py-8 tab:py-12 select-none w3-animate-opacity">
+      <div className="px-4 tab:px-6 xl:px-10 py-8 tab:pt-12 tab:pb-4 select-none w3-animate-opacity">
         {/* Modal */}
         <AlertModal
           isOpen={isOpen}
@@ -403,6 +423,26 @@ const Gallery = () => {
             Send a Birthday Wish
           </button>
         </Link>{" "}
+        <div className="">
+          <div className="attribution underline-offset-4 whitespace-nowraps poppinsFont text-center text-black text-sm sborder-4 mt-8 px-[10%] text-center sborder-2">
+            <a
+              href=""
+              className="text-base underline decoration-dotted"
+              target="_blank"
+            >
+              Oluwajomiloju Tooki
+            </a>{" "}
+            ✦
+            <a
+              href="https://www.linkedin.com/in/rerel-oluwa-tooki-cnvp-b53396253/"
+              className="text-base underline decoration-dotted"
+              target="_blank"
+            >
+              Rerel'Oluwa Tooki
+            </a>{" "}
+            © 2025
+          </div>
+        </div>
       </div>
     </>
   );
