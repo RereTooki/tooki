@@ -49,7 +49,7 @@ const photos = [
     span: "row-span-2",
   },
   {
-    src: port1,
+    src: port19,
     alt: "Folashade in patterned outfit",
     category: "Work",
     caption: {
@@ -363,7 +363,7 @@ const Gallery = () => {
             <div className="flex items-center mb-1 text-sm text-gray-600 font-medium">
               <div className="w-full h-0.5 bg-[#150061] mr-2" />
               <div className="whitespace-nowrap instruFont lg:text-base xl:text-lg">
-                Funso & Fola Tooki
+                Funṣo & Fola Tooki
               </div>
             </div>
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-gray-900 playfairFont">
