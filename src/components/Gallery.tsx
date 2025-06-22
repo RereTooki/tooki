@@ -360,6 +360,12 @@ const Gallery = () => {
         {/* Header */}
         <div className="flex flex-col tab:flex-row justify-between items-start tab:items-center mb-8 lg:mb-12 gap-4 sss">
           <div className="sborder-4 w3-animate-right">
+            <div className="flex items-center mb-1 text-sm text-gray-600 font-medium">
+              <div className="w-full h-0.5 bg-[#150061] mr-2" />
+              <div className="whitespace-nowrap instruFont lg:text-base xl:text-lg">
+                Funso & Fola Tooki
+              </div>
+            </div>
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-gray-900 playfairFont">
               Photo Gallery
             </h1>
