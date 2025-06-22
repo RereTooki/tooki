@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import WritingAnimation from "../animations/WritingAnimation";
 import WritingAnimationDelay from "../animations/WritingAnimationDelay";
+import { FaAngleDoubleDown } from "react-icons/fa";
 // Define types for props
 type NavigationBarProps = {
   projectsRef: React.RefObject<HTMLDivElement>;
@@ -32,12 +33,13 @@ const Landing: React.FC<NavigationBarProps> = ({ projectsRef }) => {
           </div>
         </Link>
         <div
-          className="text-base md:text-[4.5vw] xmd:text-lg slg:hidden lg:text-xl sxl:text-2xl  sborder-4 whitespace-nowrap absolute sborder-4 bottom-2 md:bottom-4 lg:tracking-widers text-center self-center animate-bounce select-none hover:underline underline-offset-4 decoration-dotted"
+          className="text-base md:text-[4.5vw] xmd:text-lg slg:hidden lg:text-xl sxl:text-2xl  sborder-4 whitespace-nowrap absolute sborder-4 bottom-2 md:bottom-4 lg:tracking-tight text-center self-center animate-bounce select-none hover:underline underline-offset-4 decoration-dotted"
           onClick={() => scrollToSection(projectsRef)}
         >
-          <p className="w3-animate-bottom2 cursor-pointer hover:scale-[1.05] ease-in-out duration-500 delay-50">
-            View Gallery
-          </p>
+          <div className="flex flex-row sborder-2 items-center gap-2s w3-animate-bottom2 cursor-pointer hover:scale-[1.05] ease-in-out duration-500 delay-50">
+            <p className=" sborder-2">View Gallery</p>
+            <FaAngleDoubleDown color="#1e2941" className="h-4 sborder-2" />
+          </div>
         </div>
       </div>
     </>
