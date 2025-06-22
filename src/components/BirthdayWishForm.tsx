@@ -56,7 +56,7 @@ const BirthdayWishForm: React.FC = () => {
             Send Your Message
           </h1>
           <p className="text-sm md:text-base text-center text-gray-600 mb-6 mt-[3px]">
-            Write a wedding anniversary wish to Funso Tooki / a birthday wish to
+            Write a wedding anniversary wish to Funṣo Tooki / a birthday wish to
             Folashade
           </p>
           <form
