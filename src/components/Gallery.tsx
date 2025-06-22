@@ -444,9 +444,9 @@ const Gallery = () => {
               className="text-base underline decoration-dotted"
               target="_blank"
             >
+              {" "}
               Rerel'Oluwa Tooki
-            </a>{" "}
-            © 2025
+            </a>
           </div>
         </div>
       </div>
