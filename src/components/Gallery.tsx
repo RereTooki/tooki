@@ -347,7 +347,7 @@ const Gallery = () => {
 
           {/* Tabs */}
           <div className="flex flex-wrap gap-2 text-sm lg:text-base xl:text-lg font-medium text-gray-600 w3-animate-left">
-            {categories.map((cat, idx) => (
+            {/* {categories.map((cat, idx) => (
               <React.Fragment key={cat}>
                 {idx > 0 && <span className="text-gray-400">||</span>}
                 <button
@@ -361,7 +361,10 @@ const Gallery = () => {
                   {cat}
                 </button>
               </React.Fragment>
-            ))}
+            ))} */}
+            <h1 className="text-lg lg:text-xl xl:text-2xl font-semibold text-gray-900 playfairFont">
+              26th June
+            </h1>
           </div>
         </div>
         {/* Grid */}
@@ -381,19 +384,19 @@ const Gallery = () => {
                 alt={photo.alt}
                 className="w-full h-full object-cover transition duration-500 cursor-pointer hover:scale-[1.04]"
               />
-              {photo.caption && (
+              {/* {photo.caption && (
                 <div className="absolute bottom-0 left-0 w-full bg-[#3F014733] text-white text-xs py-2 px-3 invisibles ">
                   <p className="font-bold ">{photo.caption.title}</p>
                   <p>{photo.caption.subtitle}</p>
                 </div>
-              )}
+              )} */}
             </div>
           ))}
         </div>
         {/* Floating Button */}
         <Link to="/wishme">
           <button
-            className="flex items-center justify-center gap-2 px-6 py-2 rounded-full text-[10px] tab:text-xs text-white border-[#B79D52] mt-4 fixed bottom-4 animate-pulses backdrop-blur-sm backdrop-invert mix-blend-differences bg-[#852F72]/60 z-40 right-2 md:right-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] h-[68px] w-[68px] tab:h-20 tab:w-20 lg:h-24 lg:w-24 z-10"
+            className="flex items-center justify-center gap-2 px-6 py-2 rounded-full text-[10px] tab:text-xs text-white border-[#B79D52] mt-4 fixed bottom-4 animate-pulses backdrop-blur-sm backdrop-invert mix-blend-differences bg-[#1e2941]/70 z-40 right-2 md:right-4 transition ease-in-out duration-500 delay-10 cursor-pointer hover:scale-[1.04] h-[68px] w-[68px] tab:h-20 tab:w-20 lg:h-24 lg:w-24 z-10"
             data-aos="fade-up"
             data-aos-duration="1200"
           >

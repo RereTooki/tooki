@@ -160,19 +160,19 @@
 
 /*Scroll Stand By Me*/
 ::-webkit-scrollbar-track {
-  background: rgb(234, 223, 232);
+  background: rgb(223, 224, 234);
   border-radius: 0px 0px 0px 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #411e31; /* color of the scroll thumb  */
+  background-color: #1e2941; /* color of the scroll thumb  */
   /* background-color: rgb(38, 49, 57); color of the scroll thumb  */
-  border-color: rgb(234, 223, 232);
+  border-color: rgb(223, 224, 234);
 }
 
 /*Dotted BG*/
 
 .aboutMeGrad {
-  background: linear-gradient(#ffe3f933, #ffe3f933),
+  background: linear-gradient(#e3e9ff33, #e3e9ff33),
     url(./assets/images/bg1.png);
 
   backdrop-filter: blur(140px);
@@ -182,13 +182,13 @@
 @media (min-width: 566px) {
   /*Tablets and above*/
   .aboutMeGrad {
-    background: linear-gradient(#ffe3f933, #ffe3f933),
+    background: linear-gradient(#e3e9ff33, #e3e9ff33),
       url(./assets/images/bg1.png);
   }
 }
 @media (prefers-color-scheme: dark) and (min-width: 565px) {
   .aboutMeGrad {
-    background: linear-gradient(#ffe3f933, #ffe3f933),
+    background: linear-gradient(#e3e9ff33, #e3e9ff33),
       url(./assets/images/bg1.png);
   }
 }
@@ -196,7 +196,7 @@
 @media (min-width: 566px) {
   /* Ensure dark mode styles also apply when .dark class is present on larger screens */
   .dark .aboutMeGrad {
-    background: linear-gradient(#ffe3f933, #ffe3f933),
+    background: linear-gradient(#e3e9ff33, #e3e9ff33),
       url(./assets/images/bg1.png);
   }
 }
