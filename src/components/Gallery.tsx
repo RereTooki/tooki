@@ -432,7 +432,7 @@ const Gallery = () => {
         <div className="">
           <div className="attribution underline-offset-4 whitespace-nowraps poppinsFont text-center text-black text-sm sborder-4 mt-8 px-[10%] text-center sborder-2">
             <a
-              href=""
+              href="https://www.linkedin.com/in/oluwajomiloju-tooki-81336b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               className="text-base underline decoration-dotted"
               target="_blank"
             >
