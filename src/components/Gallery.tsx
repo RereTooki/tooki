@@ -389,7 +389,7 @@ const Gallery = () => {
               </React.Fragment>
             ))} */}
             <h1 className="text-lg lg:text-xl xl:text-2xl font-semibold text-gray-900 playfairFont">
-              26th June
+              27th June
             </h1>
           </div>
         </div>
@@ -431,6 +431,15 @@ const Gallery = () => {
         </Link>{" "}
         <div className="">
           <div className="attribution underline-offset-4 whitespace-nowraps poppinsFont text-center text-black text-sm sborder-4 mt-8 px-[10%] text-center sborder-2">
+            Designed by{" "}
+            <a
+              href="https://www.linkedin.com/in/ikeokwu-somtochi/"
+              className="text-base underline decoration-dotted"
+              target="_blank"
+            >
+              Ikeokwu Somtochi
+            </a>{" "}
+            ✦ Developed by{" "}
             <a
               href=""
               className="text-base underline decoration-dotted"
