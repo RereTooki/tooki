@@ -431,15 +431,6 @@ const Gallery = () => {
         </Link>{" "}
         <div className="">
           <div className="attribution underline-offset-4 whitespace-nowraps poppinsFont text-center text-black text-sm sborder-4 mt-8 px-[10%] text-center sborder-2">
-            Designed by{" "}
-            <a
-              href="https://www.linkedin.com/in/ikeokwu-somtochi/"
-              className="text-base underline decoration-dotted"
-              target="_blank"
-            >
-              Ikeokwu Somtochi
-            </a>{" "}
-            ✦ Developed by{" "}
             <a
               href=""
               className="text-base underline decoration-dotted"
@@ -454,7 +445,15 @@ const Gallery = () => {
               target="_blank"
             >
               {" "}
-              Rerel'Oluwa Tooki
+              Rerel'Oluwa Tooki{" "}
+            </a>{" "}
+            ✦ Designed by{" "}
+            <a
+              href="https://www.linkedin.com/in/ikeokwu-somtochi/"
+              className="text-base underline decoration-dotted"
+              target="_blank"
+            >
+              Ikeokwu Somtochi
             </a>
           </div>
         </div>
