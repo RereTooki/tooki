@@ -111,11 +111,11 @@ const BirthdayWishForm: React.FC = () => {
         <div className="text-center space-y-4 w-full lg:max-w-5xl bg-white border border-indigo-200 shadow-lg  p-4 tab:p-6 xl:p-10 rounded-md">
           <div className="text-4xl">🎉</div>
           <h3 className="text-3xl lg:text-4xl xl:text-5xl font-semibold playfairFont text-[#411E31]">
-            Your Wish Made My Day!
+            Your Wish Made Our Day!
           </h3>
           <p className="text-gray-600">
-            Thank you so much for taking a moment to share that lovely birthday
-            message with me. It means the world that you chose to brighten my
+            Thank you so much for taking a moment to share that lovely message
+            with us! It means the world that you chose to brighten our
             celebration.
           </p>
           <div>
