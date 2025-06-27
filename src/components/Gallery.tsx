@@ -440,7 +440,7 @@ const Gallery = () => {
             </a>{" "}
             ✦
             <a
-              href="https://www.linkedin.com/in/rerel-oluwa-tooki-cnvp-b53396253/"
+              href="https://rere-tooki.vercel.app/"
               className="text-base underline decoration-dotted"
               target="_blank"
             >
